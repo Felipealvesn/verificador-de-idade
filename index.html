@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>verificador de idade</h1>
+    </header>
+
+    <section>
+        <div id="form">
+            <label for="txt">Ano de nascimento: </label>
+            <input type="text" name="txt" id="txt" maxlength="4">
+      
+            <p id="sexo">sexo: 
+
+            <label for="masc">masculino</label>
+            <input type="radio" name="radio" id="masc" checked>
+            <label for="fem">feminino</label>
+            <input type="radio" name="radio" id="fem">
+        </p>
+
+        <button onclick="go()">verificar</button>
+        </div>
+        <p id="resultado"> preencha os dados acima para obter o resultado!!</p>
+        <img src="" alt="" id="img">
+        <p id="senerioridade"></p>
+    </section>
+
+    <footer>
+        &copy; Felipe Alves Barbosa
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
